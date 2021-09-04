@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script:wght@400;600&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap :7rem;
+    padding: 0 2rem;
+}
+.img{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.img img{
+	width: 500px;
+}
+
+form{
+	width: 560px;
+}
+
+.login-content{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.login-content .BUTTONS{
+	padding-left: 186px;
+}
+.login-content h2{
+	font-family: 'Allison', cursive;
+	font-family: 'Dancing Script', cursive;
+	margin: 15px 0;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 2.6rem;
+	padding-top: 70px;
+}
+.login-content div ,textarea{
+	border-radius: 15px;
+	margin-top: 10px;
+}
+textarea:focus{	
+	outline: none;
+
+}
+.login-content p{
+	font-family: 'Allison', cursive;
+	font-size: 28px;
+	font-weight: 500;
+}
+.login-content:hover textarea, .login-content:hover input{
+	background-color: rgb(247, 241, 241);
+}
+
+/* log out button */
+
+.btn{
+	display: block;
+	width: 50%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	margin: 1rem 0;
+	cursor: pointer;
+}
+
+
